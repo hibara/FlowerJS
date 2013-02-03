@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>flower.js demo</title>
+<script type="text/javascript" src="flower.js"></script>
+<style type="text/css">
+body{
+	text-align: center;
+}
+h1{
+	margin: 0;
+	font-size: x-large;
+}
+canvas{
+	margin:0 auto 0 auto;
+	border: 1px solid black;
+	display: block;
+ }
+div#container{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+</style>
+</head>
+<body>
+
+<a href="https://github.com/hibara/flowerjs">
+	<img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub">
+</a>
+
+<div id="container">
+<h1>FlowerJS　sample demo</h1>
+Click in the box, the flowers bloom in its position.<br />
+Click several times, the shape and color of the flowers will change.
+<script type="text/javascript">
+  new FlowerJS();
+</script>
+
+</div>
+
+<input type="button" value="Reset" onclick="location.reload();"/>
+
+</body>
+</html>
